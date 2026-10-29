@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Will Wiz | Project Home</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    }
+    body {
+      margin: 0;
+      line-height: 1.5;
+    }
+    main {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 2rem 1rem 3rem;
+    }
+    h1 {
+      margin-bottom: 0.5rem;
+    }
+    .grid {
+      display: grid;
+      gap: 1rem;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      margin-top: 1.5rem;
+    }
+    .card {
+      border: 1px solid color-mix(in oklab, canvastext 20%, transparent);
+      border-radius: 0.75rem;
+      padding: 1rem;
+    }
+    a {
+      font-weight: 600;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Welcome</h1>
+    <p>A starting point for my projects, documentation, and source code.</p>
+
+    <section class="grid" aria-label="Get started links">
+      <article class="card">
+        <h2>Documentation</h2>
+        <p>Read the project overview and notes.</p>
+        <a href="/willwiz.github.io/README.md">Open documentation</a>
+      </article>
+
+      <article class="card">
+        <h2>Source Code</h2>
+        <p>Browse the repository on GitHub.</p>
+        <a href="https://github.com/willwiz/willwiz.github.io">View source</a>
+      </article>
+    </section>
+  </main>
+</body>
+</html>
