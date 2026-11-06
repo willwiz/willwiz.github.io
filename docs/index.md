@@ -36,28 +36,6 @@ https://doi.org/10.1137/15M1014097)
 - Mesh: A library for generating and manipulating Cheart meshes, including reading/writing Cheart
   mesh files, and converting to/from other mesh formats.
 
-=== "C"
-
-    ```c
-    #include <stdio.h>
-
-    int main(void) {
-      printf("Hello world!\n");
-      return 0;
-    }
-    ```
-
-=== "C++"
-
-    ```c++
-    #include <iostream>
-
-    int main(void) {
-      std::cout << "Hello world!" << std::endl;
-      return 0;
-    }
-    ```
-
 ### Gmsh-Stubs
 
 Stub only package adding typing information for the exposed Gmsh Python API. Should pass type
@@ -67,4 +45,4 @@ Only the snake case APIs are included, as camel case Triggers too many warnings 
 
 > **source**: [github.com/willwiz/gmsh-stubs](https://github.com/willwiz/gmsh-stubs)
 
-For documentation, see the [Gmsh documentation](https://gmsh.info/doc/texinfo/gmsh.html).
+For documentation, see the [Gmsh Official Documentation](https://gmsh.info/doc/texinfo/gmsh.html).
